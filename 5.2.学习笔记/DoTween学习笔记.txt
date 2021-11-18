@@ -1,0 +1,28 @@
+- 两种脚本控制动画播放的方式
+-- DOTween.To()
+-- DO(Local)Move()
+
+- 使用组件方式控制动画播放
+-- DOPlayBackwards(), DOPlayForward() : tweener.SetAutoKill(false)
+-- DOMove(...).From(true) : 从目标位置运动到当前位置, true 相对坐标
+-- DOText(string, duration) : 浮现文字
+-- DOShakePosition() : 相机，震动屏幕
+-- DOColor() : 渐变颜色
+-- DOFade() : 渐变透明度
+
+- 特殊设置
+-- SetEase
+-- OnComplete(方法名) : 动画播放完成后进行
+-- SetLoops()
+
+- 动画的生命周期
+- 可视化 : add component
+- 路径编辑器的使用
+
+- http://dotween.demigiant.com/documentation.php
+
+
+
+
+
+

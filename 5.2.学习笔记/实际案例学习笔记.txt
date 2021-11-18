@@ -1,0 +1,18 @@
+1. 坦克大战
+- Sprite : 精灵图集 (SpriteSheet分解), 渲染 (SpriteRender)
+- FixedUpdate : 物理问题 (移动)
+- 触发器 : CollideBox - isTrigger
+2. Rudy's Adventure
+- TileMap, Tile Pallet
+- UI 锚点
+- 粒子系统 Particle System : Mode (Sprite)
+3. 贪吃蛇
+- 分辨率 : player settings
+- Canvas - Render Mod
+- outline, shadow
+4. Save&Load
+- 协程 Coroutines
+- Ondisable()
+- Application.Quit()
+
+

@@ -1,0 +1,10 @@
+- UI 素材
+- Image 
+-- Scroll Rect : normalizedposition
+-- Mask : 滑动图片
+- - Image 类型 (simple, sliced : Sprite Editor九宫, tiled, filled : 填充, 技能冷却实现)
+
+- Scrollbar (滚动条)
+- Slider (滑动器) : OnValueChange, interractive
+- Toggle (勾选框), Toggle Group : 多个勾选变单选
+- Grid : 排列相同motif

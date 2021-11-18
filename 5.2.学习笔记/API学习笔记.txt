@@ -1,0 +1,170 @@
+## 如何看Unity文档和API手册
+
+## Unity中的事件方法
+
+
+### Time
+
+- Time.deltaTime 当前帧运行占用的时间
+- realtimeSinceStartup 从游戏开始到现在的总时间
+- smoothDeltaTime 
+- fixedTime
+- timeScale
+
+### GameObject游戏物体
+
+- activeSelf : `true` or `false` - SetActive
+- activeInHierarchy
+- tag
+
+#### 构造方法
+
+- new GameObject("Name")
+
+- GameObject.Instantiate
+- GameObject.CreatePrimitive(Primitivetype.[name])
+
+#### 方法
+
+- AddComponent - 添加组件
+
+- Destroy - 销毁
+- GetComponent[s]InChildren
+- GetComponent[s]<name_component>()
+- BroadcastMessage
+
+#### GameObject和Component 相同点和区别
+
+#### 游戏物体查找
+
+- Game.Find
+- FindObjectsOfType
+- FindObjectOfType
+- FindWithTag
+- transform.Find
+
+### MonoBehaviour
+
+- Invoke("Method",time)
+
+- 协程方法 - 定义 IEnumerator Function() {yield return new WaitForSeconds(float time);yield return null;} 调用 StartCoroutine(Function());
+- Message - Update, onCollision
+
+
+
+### Mathf
+
+- Deg2Rad - property
+- Infinity - property
+
+- Clamp(xValue,minValue,maxValue)
+- ClosestPowerOfTwo
+- Lerp
+- LerpAngle
+- MoveTowards
+- PingPong
+- Round
+- SmoothDamp
+
+### Input
+
+- GetKey.. - KeyCode.[name]
+- GetButton
+- GetAxis
+- MousePosition
+- OnMouse
+
+### Vector2
+
+### Vector3
+
+### Random 
+
+- Range - 随机整数 随机小数的生成
+
+- InitState(number) - 随机种子 - number = System.DateTime.Now.Ticks
+- state - 随机数生成器的状态，随机种子固定每次生成随机数列不变
+
+
+
+### Quaternion
+
+- Quaternion.LookRotation
+- Euler - 构造四元数
+- Lerp, Slerp
+
+### Rigibody
+
+- mass, velocity
+- useGravity, isKinematic
+
+- AddTorque, AddForce
+- MovePosition
+
+### Camera
+
+- main
+- ScreenPointToRay - Debug.DrawRay(...)
+- ScreenToWorldPoint
+- WorldToScreenPoint
+
+
+
+### Application
+
+- Application.dataPath
+- streamingAssetsPath
+- persistentDataPath
+- temporaryCachePath
+
+- companyName
+- idenifier
+- installerName
+- isEditor
+- isFocused
+- isMobilePlatform
+- isPlaying
+
+- CaptureScreenshot(filename "path/filename")
+
+### SceneManager 场景加载
+
+- using UnityEngine.SceneManagement
+
+- LoadScene, LoadSceneAsync (可返回加载进度)
+- GetActiveScene
+
+
+
+### 射线检测
+
+- Pysics.Raycast(Ray ray, out hit), hit.point
+- Pysics.Raycast(Ray ray, distance, LayerMask.getMask("mask1","mask2"))
+
+- Phsics2D.
+
+### UGUI 事件监听
+
+- unityEngine.UI
+
+1. 拖拽
+2. 代码添加
+3. 通过实现接口 UnityEngine.EventSystems
+
+### WWW
+
+- WWW site = new WWW(url)
+
+### 触摸事件  
+
+touch
+
+### CharacterController
+
+### Mesh
+
+- MeshFilter
+
+### Material
+
+### Animator

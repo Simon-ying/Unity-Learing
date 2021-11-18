@@ -1,0 +1,34 @@
+- 代理 : delegate
+-- Multicasting of a Delegate : GetInvocationList()
+
+- 事件 : Event
+
+- LINQ : from m in M where expr select m.attri
+
+- Thread
+-- 异步委托
+-- Task, TaskFactory
+-- lock
+
+- 文件系统
+-- FileInfo, DirectoryInfo
+-- File, Directory
+-- Path类
+-- FileStream : StreamReader, StreamWriter (文本文件的读写)
+
+- xml
+-- XmlDocument
+
+- json
+-- litjson
+
+- Excel
+
+- String类
+- StringBuilder
+
+- Regrex类
+-- @"pattern" : @
+-- Match
+-- Replace(string input, string pattern, MatchEvaluator evaluator) : MatchEvaluator(委托)
+-- Split

@@ -1,0 +1,5 @@
+- LineRenderer : https://docs.unity3d.com/cn/2020.3/Manual/class-LineRenderer.html
+-- Unity LineRenderer绘制连续反射的射线 : https://blog.csdn.net/qq_36709058/article/details/105508483
+-- 绘制线段 : https://blog.csdn.net/zuoyamin/article/details/8997729
+- Navigation : 
+-- https://blog.csdn.net/qq_30454411/article/details/79150879
