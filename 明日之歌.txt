@@ -1,7 +1,8 @@
-11.19 : 音游制作实用插件-Koreographer入门教程 (18) + 通过实例学习：游戏的存档与读档（Unity 2017.2）(10)+ Unity - 祖玛游戏 * 10
-	Unity移动端入门 - Android那些事 + Unity - GooglePlay上架流程 + Unity - 祖玛游戏 * 10
-11.20 : Unity SDK接入-QQ微信登录（Unity2018.4）* 40 + Unity - 上架iOS App Store +Unity - 祖玛游戏 * 10
+	Unity移动端入门 - Android那些事 + Unity - GooglePlay上架流程 
+11.20 : Unity SDK接入-QQ微信登录（Unity2018.4）* 40 + Unity - 上架iOS App Store 
 11.21 : Unity SDK接入-QQ微信登录（Unity2018.4）+ Unity - 祖玛游戏
 11.22 : Unity手游案例 - RocketFly 场景搭建 + 核心玩法
 11.23 : Unity手游案例 - RocketFly UI + 完善
 11.24 : Unity2DFPS手游案例-清洗者日记 主角 墙体 道具
+
+挂起: 通过实例学习：游戏的存档与读档（Unity 2017.2）(10)

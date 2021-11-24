@@ -1,2 +1,20 @@
 ## 基础知识
 - BPM = 60 : 每秒一拍
+
+## 编辑器快捷键
+- E : 在播放时插入事件
+
+## 基础设置
+- Koreographer
+- Audio Source
+- Simple Music Player
+
+## 代码
+- Koreographer.Instance.RegisterForEvents(eventID, method)
+- Koreographer.Instance.RegisterForEventsWithTime(eventID, method)
+- Koreograoher.GetBeatTimeDelta()
+
+## PlayLoad
+- 事件曲线 : koreographyEvent.HasCurvePayload()
+	  koreographyEvent.GetValueOfCurveAtTime(sampleTime)
+- 文本 : koreographyEvent.HasTextPayload()

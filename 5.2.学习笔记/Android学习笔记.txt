@@ -1,0 +1,9 @@
+## 签名
+- cmd => jdk/bin => keytool -genkey -alias aName -keyalg RSA -validity 36500 -keystore aName.keystore
+		 keytool -genkey -alias ying -keyalg RSA -validity 36500 -keystore ying.keystore
+
+## 调试
+## 自适应
+- UGUI自适应 : Canvas Scaler
+- 视口自适应 仅正交相机 : 实际视口 = 初始视口 * 初始宽高比 / 实际宽高比 : 宽度不变
+- Touch类
